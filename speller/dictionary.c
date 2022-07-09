@@ -98,7 +98,7 @@ unsigned int size(void)
     return counter;
 }
 
-// Unloads dictionary from memory, returning true if successful, else false
+// Unloads dictionary from memory
 bool unload(void)
 {
     node *cursor = NULL;
